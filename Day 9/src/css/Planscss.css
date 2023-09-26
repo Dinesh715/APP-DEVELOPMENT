@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .transaction{
+    color: #905a08;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+.girl{
+    position: absolute;
+    top: 27%;
+    right: 5%;
+    width: 30%;
+}
+.girl1{
+    position: absolute;
+    top: 92%;
+    right: 5%;
+    width: 30%;
+}
+
+.plancontent{
+    background-color: rgb(223, 119, 119);
+    height: 320px;
+    width:300px;
+    padding:20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+
+.netflix
+{
+    background-color: rgb(255, 0, 0);
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 11px;
+    font-weight: bold;
+}
+.anniversary
+{
+    background-color: rgb(1, 1, 1);
+    padding:9px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 2rem;
+    color:white;
+    font-weight: bold;
+    width: 17rem;
+}
+
+.amount{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.total{
+    display: flex;
+    margin-top: 30px;
+}
+.unlimited{
+    height: 20px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.validity{
+    margin-top: 25px;
+    width:75px;
+    margin-left: 50px;
+}
+
+.days{
+    color:  rgb(185, 130, 67);
+    width:100px;
+}
+.days1{
+    color: rgb(185, 130, 67);
+    width:200px;
+}
+.details{
+    color: rgb(135, 65, 65);
+}
+
+
+.innerflex{
+    display: flex;
+}
+
+.validity1{
+    margin-top: 25px;
+    width:75px;
+    justify-items:flex-start;
+    margin-left: 40px;
+}
+
+.subscribe{
+    margin-top:20px;
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+}
+.netfliximage{
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 50px;
+}
+
+.zee5{
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.jiocinema{
+    height: 35px;
+    margin-top: 5px;
+}
+.disney{
+    height: 35px;
+    margin-top: 5px;
+}
+
+.button{
+    padding: 1rem;
+    margin-left: 70px;
+}
+
+.stylebutton{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+    
+}
+.clip{
+    display: flex;
+    margin-left: 30px;
+}
+.clipp{
+    display: flex;
+    margin-left: 30px;
+}
+.spaceclip{
+    margin-left: 50px;
+}
+
+.subimage{
+    display: flex;
+    margin-left: 10px;
+}
+.subimage1{
+    display: flex;
+    margin-left: 45px;
+}

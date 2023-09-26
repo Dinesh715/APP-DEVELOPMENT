@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.usernamealignm{
+    padding: 6rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.status{
+    margin-left: 10rem;
+}
