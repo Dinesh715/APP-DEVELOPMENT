@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  
+}
+  .loginform{
+    justify-content: center;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 3rem;
+    border-radius: 30px;
+    border-width:7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-style: inset;
+    border-color: rgb(220, 127, 127);
+  }
+
+
+  .logindiv{
+    
+    background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .logincss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #131313;   
+  }
+  button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width:50%;
+    margin:3% auto;
+    font-size:15px;
+    padding:10px 30px;
+    outline:none;
+    border-radius:20px;
+    text-shadow:2px 2px 4px rgba(255,255,255,0.2);
+    background-color: rgb(220, 127, 127);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .titlecss{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size:larger;
+  }
+
+.titlelogin{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.home-div
+{
+  background-color: aquamarine;
+}
+.cardz
+{
+  width:5rem;
+  height:50px;
+}

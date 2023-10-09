@@ -1,0 +1,38 @@
+/* In TermsAndConditions.css */
+.terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expand-button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  
+  .expand-button:hover {
+    background-color: #0056a9;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .terms-and-conditions.expanded .content {
+    display: block;
+  }
+  

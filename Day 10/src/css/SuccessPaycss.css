@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0rem;
+    list-style: none; 
+}
+
+.payment{
+    background-color: bisque;
+    width: 20%;
+    height: 10%;
+    margin-left: 37%;
+    margin-bottom:5rem;
+}
+
+.paymessage{
+    font-weight: bolder;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
