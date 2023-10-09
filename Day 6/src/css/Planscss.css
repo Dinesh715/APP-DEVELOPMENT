@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .transaction{
+    color: #905a08;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+.girl{
+    position: absolute;
+    top: 16%;
+    right: 5%;
+}
+
+.plancontent{
+    background-color: rgb(203, 203, 203);
+    height: 350px;
+    width:300px;
+    padding:20px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+
+.netflix
+{
+    background-color: rgb(255, 0, 0);
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 11px;
+    font-weight: bold;
+}
+.anniversary
+{
+    background-color: rgb(44, 65, 162);
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 11px;
+    color:white;
+    font-weight: bold;
+}
+
+.amount{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.total{
+    display: flex;
+    margin-top: 30px;
+}
+.unlimited{
+    height: 20px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.validity{
+    margin-top: 25px;
+    width:75px;
+    margin-left: 50px;
+}
+
+.days{
+    color: rgb(98, 98, 101);
+    width:100px;
+}
+.days1{
+    color: rgb(98, 98, 101);
+    width:200px;
+}
+.details{
+    color: blue;
+}
+
+
+.innerflex{
+    display: flex;
+}
+
+.validity1{
+    margin-top: 25px;
+    width:75px;
+    justify-items:flex-start;
+    margin-left: 40px;
+}
+
+.subscribe{
+    margin-top:20px;
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+}
+.netfliximage{
+    margin-top: 10px;
+    height: 25px;
+    margin-left: 50px;
+}
+
+.zee5{
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.jiocinema{
+    height: 35px;
+    margin-top: 5px;
+}
+.disney{
+    height: 35px;
+    margin-top: 5px;
+}
+
+.button{
+    padding: 1rem;
+    margin-left: 70px;
+}
+
+.stylebutton{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: large;
+    
+}
+.clip{
+    display: flex;
+    margin-left: 30px;
+}
+.clipp{
+    display: flex;
+    margin-left: 30px;
+}
+.spaceclip{
+    margin-left: 50px;
+}
+
+.subimage{
+    display: flex;
+    margin-left: 10px;
+}
+.subimage1{
+    display: flex;
+    margin-left: 45px;
+}
+
+.button12 {
+    position: relative;
+    background-color: transparent;
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button12::before {
+    content: "Recharge!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button12::after {
+    content: "Click Here";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button12:hover::before {
+    transform: translate(0%,0%);
+  }
+  
+  .button12:hover::after {
+    transform: translate(0%,-200%);
+  }
+  
+  .button12:focus {
+    outline: none;
+  }
+  
+  .button12:active {
+    scale: 0.95;
+  }
+  
+
+
+
+  
+.button122 {
+    position: relative;
+    background-color: transparent;
+    color: #e8e8e8;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    margin-bottom: 1rem;
+  }
+  
+  .button122::before {
+    content: "Recharge!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg,#7b4397,#dc2430 );
+    transform: translate(0%,90%);
+    z-index: 99;
+    position: relative;
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button122::after {
+    content: "Click Here";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: top;
+    transform: translate(0%,-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button122:hover::before {
+    transform: translate(0%,0%);
+  }
+  
+  .button122:hover::after {
+    transform: translate(0%,-200%);
+  }
+  
+  .button122:focus {
+    outline: none;
+  }
+  
+  .button122:active {
+    scale: 0.95;
+  }
+  
+

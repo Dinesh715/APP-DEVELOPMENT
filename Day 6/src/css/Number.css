@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+
+.totalrecharge{
+    padding: 3rem;
+    display: flex;
+    margin-left: 70px;
+}
+
+.totalcontent{
+    display: flex;
+    padding: 7rem;
+}
+
+.family{
+    margin-left: 40%;
+}
+
+.rupee{
+    height:5%;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.rechargename{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size:30px;
+    color: green;
+    margin-left: 100px;
+}
+.enteringnumber{
+    margin-right: 30px;
+}
+
+.addressing{
+    margin-top: 20px;
+    font-weight: bolder;
+    color:rgb(158, 82, 82);
+}
+
+.mobile{
+    height:6%;
+    margin-left:120px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+.rechargebutton{
+    font-weight: bolder;
+    font-size: large;
+    height:50px;
+    border-radius: 70%;
+    margin-left:90px;
+    margin-top: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #333;
+}
+
+.rechargenamee{
+    background-color:#333;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    width: 101%;
+}
+
+.mobilenumber{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width:80%;
+    padding: 1rem;
+    background-color: #474141;
+    font-weight: bold;
+    border: 1px solid #000000;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.mobilenumber:focus{
+    border: 1px solid #333;
+}
+
+
+.button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .type1::after {
+    content: "Thanks";
+    height: 50px;
+    width: 150px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1::before {
+    content: "Recharge";
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }

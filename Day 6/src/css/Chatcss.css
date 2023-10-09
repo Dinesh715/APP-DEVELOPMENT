@@ -1,0 +1,170 @@
+/* App.css */
+* {
+  margin: 0;
+  text-decoration: none;
+  padding: 0rem;
+  list-style: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .app-container {
+    display:contents;
+    flex-direction:column;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; /* Ensure the top navbar is above the left navbar */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #daa95f; /* Change the color on hover */
+    background-color:#333;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+  .navbar-bottom {
+    bottom: 0;
+    height: 10%;
+  }
+
+  
+
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 210px; /* Adjust the width as needed */
+    height: 81%;
+    position: fixed;
+    left: 0;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2; /* Ensure the left navbar is above the main content */
+  }
+
+
+  .nav-links-left {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    color: #ff9900;
+    background-color: #333;
+    
+  }
+
+  .profilealign{
+    margin-top:-11px;
+  }
+
+  .usernamealign{
+    tab-size: 5px;
+    font-weight: lighter;
+    font-size: small;
+    width:200px;
+  }
+  .navbar-top {
+    top: 0;
+    height: 10%;
+    width: 100%;
+  }
+
+ 
+  .welcome{
+    color: #905a08;
+    margin-left: 270px;
+    margin-top: 50px;
+  }
+
+  .userimage{
+    background-image: url("https://pwa-cdn.freecharge.in/pwa-static/pwa/images/dcc/mobile-recharge.svg");
+    background-repeat: no-repeat;
+  width:300px;
+  height:200px;
+  margin-left: 120px;
+  }
+  
+.username{
+    margin-left:51px;
+}
+
+.contenttext{
+    margin-left:250px;
+}
+
+.social-media {
+    text-align: right;
+    
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.social-media a:hover {
+    color:  #ff9900; /* Change the color on hover */
+}
+
+.facebook{
+  height: 50px;
+  width:50px
+}
+
+.nav-links{
+  margin-left: 1rem;
+}
