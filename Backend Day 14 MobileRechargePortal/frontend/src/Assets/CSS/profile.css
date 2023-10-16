@@ -1,0 +1,248 @@
+.pfoot{
+    position: absolute;
+    top: 83%;
+    background-color: #e3e3e3;
+    width: 100%;
+    height: 36%;
+  }
+  .jio-background{
+    background-color: #e60303;
+    width: 65%;
+    height: 45%;
+    position: absolute;
+    top: 147%;
+    right: 15%;
+    border-radius: 14px
+  }
+  .thin-line{
+    position: absolute;
+    width: 100%;
+    height: 0.1%;
+    background-color: #000000;
+    top: 84%;
+  }
+  .social-media-link{
+    background-image: url();
+  }
+  .connect{
+    position: absolute;
+    top: 23%;
+    right: 78%;
+    font-weight: bolder;
+    font-size: 152%;
+
+  }
+  .twitter-link-image{
+    background-image: url("https://cdn-icons-png.flaticon.com/128/733/733635.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 10%;
+    height: 15%;
+   background-size:45px ;
+   top: 163px;
+   left: 190px;
+    cursor: pointer;
+  }
+  .insta-link-image{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/1384/1384031.png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    position: absolute;
+    width: 5%;
+    height: 15%;
+    top: 163px;
+    left: 267px;
+    cursor: pointer;
+  }
+  .fb-image{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/3128/3128208.png);
+    background-repeat: no-repeat;
+    background-size: 47px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 160px;
+    left: 18%;
+    cursor: pointer;
+  }
+  .app-myjio{
+    position: absolute;
+    top: 23%;
+    font-weight: bolder;
+    font-size: 152%;
+    left: 635px;
+  }
+  .playstore{
+    background-image: url(https://jep-asset.akamaized.net/jio/svg/android-ios-logo/G-Play.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    position: absolute;
+    width: 255px;
+    height: 63px;
+    top: 165px;
+    left: 574px;
+    cursor: pointer;
+  }
+  .ios{
+    background-image: url(https://jep-asset.akamaized.net/jio/svg/android-ios-logo/AppStore.svg);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    position: absolute;
+    width: 255px;
+    height: 63px;
+    top: 165px;
+    left: 770px;
+    cursor: pointer;
+  }
+  .footer-jio-logo{
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/07/Jio-Logo.png);
+    background-repeat: no-repeat;
+    background-size: 122%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 87%;
+    left: 7%;
+  }
+  .footer-text{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    position: absolute;
+    width: 27%;
+    height: -37%;
+    top: 90%;
+    left: 11%;
+  }
+  .f-txt-1{
+    position: absolute;
+    top: 90%;
+    left: 61%;
+  }
+  .f-txt-2{
+  position: absolute;
+  top: 90%;
+  left: 67%;
+  }
+  .f-txt-3{
+    position: absolute;
+    top: 90%;
+    left: 72%;
+  }
+  .f-txt-4{
+    position: absolute;
+    color: #000000;
+    top: 90%;
+    left: 76%;
+  }
+  .support-txt{
+    top: 47px;
+    position: absolute;
+    left: 1123px;
+  }
+  .lost{
+    width: 4%;
+    line-height: 25px;
+    top: 106px;
+    position: absolute;
+    left: 1132px;
+    font-weight: 400;
+  }
+  .our{
+    position: absolute;
+    left: 1316px;
+    top: 47px;
+  }
+  .our-txt{
+    width: 2px;
+    position: absolute;
+    left: 1321px;
+    top: 102px;
+    font-weight: 500;
+  }
+  .p-txt{
+    position: absolute;
+    width: 19%;
+    height: 3%;
+    color: #838380;
+    top: 23%;
+    left: 18%;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .p1-txt{
+    position: absolute;
+    width: 17%;
+    height: 20%;
+    color: #838380;
+    top: 36%;
+    line-height: 3;
+    font-size: x-large;
+    font-weight: 500;
+    left: 18%;
+  }
+  .tick-logo{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8832/8832119.png);
+    background-size: 35px;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-repeat: no-repeat;
+    top: 373px;
+    left: 15%
+  }
+  .tick-logo1{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8832/8832119.png);
+    background-size: 35px;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-repeat: no-repeat;
+    top: 441px;
+    left: 15%
+  }
+  .tick-logo2{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8832/8832119.png);
+    background-size: 35px;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-repeat: no-repeat;
+    top: 515px;
+    left: 15%
+  }
+  .tick-logo3{
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8832/8832119.png);
+    background-size: 35px;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-repeat: no-repeat;
+    top: 586px;
+    left: 15%
+  }
+  .qr{
+    background-image: url(https://jep-asset.akamaized.net/jiocom/static/images/myjioQRimage.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 68%;
+    left: 20%
+  }
+  .qr-txt{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 69%;
+    left: 26%;
+    color: #838380;
+  }
+  .scan-txt{
+    position: absolute;
+    top: 72%;
+    left: 26%;
+    width: 15%;
+    font-weight: 100;
+  }
