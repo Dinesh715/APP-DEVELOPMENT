@@ -1,0 +1,65 @@
+/* src/components/TermsAndConditions.css */
+.terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .accept-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .accept-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styling as needed for your specific design */
+  
